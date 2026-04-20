@@ -6,13 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="#">
+    <form>
         <fieldset>
             <legend>Inscription à la bibliothèque</legend>
-            <input type="text" placeholder="Entrez votre Nom" id="nom">
             <input type="text" placeholder="Entrez votre Prénom" id="prenom">
             <label for="age">Avez vous quel âge ?</label>
             <input type="number" min="1" id="age">
+            <select id="choix">
+                <option value="enfant">Enfant</option>
+                <option value="adulte">Adulte</option>
+                <option value="senior">Senior</option>
+            </select>
+
             <button type="submit" onclick="formulaire( )">Valider</button>
         </fieldset>
     </form>
